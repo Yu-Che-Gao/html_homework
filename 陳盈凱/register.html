@@ -1,0 +1,162 @@
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="D:/bootstrap-3.3.6-dist/favicon.ico">
+
+    <title>Signin Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="D:/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="D:/bootstrap-3.3.6-dist/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="D:/bootstrap-3.3.6-dist/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<div class="right-side">
+			<div align="left">
+				
+			</div>
+			<br>
+			
+<body>
+
+<div align="center">
+		<form name="application" method="post" action="register_finish_association.php">
+			<table class="formint_table_new" width="60%" align="center">
+				<tbody><tr>
+					<th class="formint_title" colspan="2" style="font-size:28px;">會員申請表</th>
+				</tr>
+				<tr>
+					<th colspan="2" style="background-color:#FFFFCC;">
+						<font style="color:#FF0033;">*號為必填欄位</font><br>
+						<!--<font style="color:#3300BB;">若有格式範例，請依照上述範例填寫！</font>-->
+					</th>
+				</tr>
+				<tr>
+					<th width="30%"><span class="required">*</span>帳號</th>
+					<td width="70%"><input type="text" name="account" maxlength="20"></td>
+				</tr>
+				<tr>
+					<th><span class="required">*</span>密碼</th>
+					<td><input type="password" name="code" maxlength="20"></td>
+				</tr>
+				<tr>
+					<th><span class="required">*</span>姓名</th>
+					<td><input type="text" name="username"></td>
+				</tr>
+				<tr>
+					<th><span class="required">*</span>E-mail</th>
+					<td><input type="text" name="email"></td>
+				</tr>
+				<!--
+				<tr>
+					<th><span class="required">*</span>性別</th>
+					<td>
+						<select id="sex" name="sex" style="width:55px; height:32px;">
+							<option value="Male">男</option>
+							<option value="Female">女</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th><span class="required">*</span>出生日期</th>
+					<td>
+						<font>西元</font>
+						<input type="text" name="year" maxlength="4" style="width:60px; text-align:center;" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" />
+						<font>年</font>
+						<select name="month" style="width:55px; height:32px;">
+							<option value="01">1</option>
+							<option value="02">2</option>
+							<option value="03">3</option>
+							<option value="04">4</option>
+							<option value="05">5</option>
+							<option value="06">6</option>
+							<option value="07">7</option>
+							<option value="08">8</option>
+							<option value="09">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+						</select>
+						<font>月</font>
+						<select name="day" style="width:55px; height:32px;">
+							<option value="01">1</option>
+							<option value="02">2</option>
+							<option value="03">3</option>
+							<option value="04">4</option>
+							<option value="05">5</option>
+							<option value="06">6</option>
+							<option value="07">7</option>
+							<option value="08">8</option>
+							<option value="09">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+							<option value="26">26</option>
+							<option value="27">27</option>
+							<option value="28">28</option>
+							<option value="29">29</option>
+							<option value="30">30</option>
+							<option value="31">31</option>
+						</select>
+						<font>日</font>
+					</td>
+				</tr>
+				<tr>
+					<th><span class="required">*</span>連絡電話</th>
+					<td><input type="text" name="phone2" maxlength="10"/></td>
+				</tr>
+				<tr>
+					<th>行動電話</th>
+					<td><input type="text" name="cellphone" maxlength="12"/></td>
+				</tr>
+				<tr>
+					<th><span class="required">*</span>通訊地址</th>
+					<td><input type="text" name="address"/></td>
+				</tr>
+				-->
+			</tbody></table>
+			<br>
+			<table width="50%" align="center">
+				<tbody><tr align="center">
+					<td><input type="reset" value="重新填寫" class="btnf2" style="padding:10px 15px;font-size:22px;height:50px"></td>
+					<td><input type="button" value="回首頁" class="btnf" onclick="location.href='./new 1.html'" style="padding:10px 15px;font-size:22px;height:50px"></td>
+					<td><input type="submit" value="確認送出" class="btnf2" style="padding:10px 15px;font-size:22px;height:50px"></td>
+				</tr>
+			</tbody></table>
+		</form>
+		<br><br><br><br>
+	</div>
+  
+
+</body>
